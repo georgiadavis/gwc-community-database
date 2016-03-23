@@ -1,0 +1,228 @@
+body{
+  background-color: #FEFEFE;
+  font: 15px Open Sans, sans-serif;
+  margin:0;
+  padding:0;
+}
+
+p {
+	font-family: 'Open Sans';
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.logo-title {
+  text-align: center;
+  margin:0;
+  color: #6eceb2;
+}
+
+
+.logo{
+  height:100px;
+  width:200px;
+  margin:0 auto;
+  display:block;
+}
+
+.nav{
+  height:225px;
+  background:#01426a;
+  width:100%;
+  margin:0px;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #01426a;
+  text-align: right;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+  font-size: 1.2em;
+  line-height: 40px;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: #6eceb2;
+  display: block;
+}
+
+.text-header {
+  text-align:center;
+  color: #01426a;
+}
+
+.search-box{
+  margin: 0 auto;
+  display: block;
+  width: 320px;
+
+}
+
+input{
+  width:200px;
+  height:25px;
+  border: 1px solid #686C6F;
+  padding-left: 10px;
+  padding-right: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 4px;
+}
+
+.myButton {
+	-moz-box-shadow: 0px 36px 0px -24px #6eceb3;
+	-webkit-box-shadow: 0px 36px 0px -24px #6eceb3;
+	box-shadow: 0px 36px 0px -24px #6eceb3;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #6eceb3), color-stop(1, #7ed9bf));
+	background:-moz-linear-gradient(top, #6eceb3 5%, #7ed9bf 100%);
+	background:-webkit-linear-gradient(top, #6eceb3 5%, #7ed9bf 100%);
+	background:-o-linear-gradient(top, #6eceb3 5%, #7ed9bf 100%);
+	background:-ms-linear-gradient(top, #6eceb3 5%, #7ed9bf 100%);
+	background:linear-gradient(to bottom, #6eceb3 5%, #7ed9bf 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#6eceb3', endColorstr='#7ed9bf',GradientType=0);
+	background-color:#6eceb3;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #64d9b8;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #00a878;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7ed9bf), color-stop(1, #6eceb3));
+	background:-moz-linear-gradient(top, #7ed9bf 5%, #6eceb3 100%);
+	background:-webkit-linear-gradient(top, #7ed9bf 5%, #6eceb3 100%);
+	background:-o-linear-gradient(top, #7ed9bf 5%, #6eceb3 100%);
+	background:-ms-linear-gradient(top, #7ed9bf 5%, #6eceb3 100%);
+	background:linear-gradient(to bottom, #7ed9bf 5%, #6eceb3 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7ed9bf', endColorstr='#6eceb3',GradientType=0);
+	background-color:#7ed9bf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.container{
+   margin: 30px 200px 30px 200px;
+   border-radius: 25px;
+   background-color:#FFF;
+   padding: 20px;
+   display: block;
+}
+
+.events-header{
+  color:#FF5D82;
+}
+
+.calendar-icon{
+  display:block;
+  float:left;
+  padding:2px;
+  margin: 6px;
+}
+
+.event{
+  display:inline;
+}
+
+footer{
+  height:auto;
+  background:#6eceb2;
+  opacity: 0.7;
+  left:0px;
+  bottom: 0px;
+  width:100%;
+  margin-bottom: 0px;
+
+}
+
+.spotlight{
+  float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+.spotlight-img{
+  width:240px;
+  height: 150px;
+  padding: 20px ;
+  border-radius: 25px;
+}
+
+.spotlight-description{
+  float:right;
+  width: 300px;
+  margin-right:80px;
+  margin-left:100px;
+
+}
+
+.events-page-container{
+  margin-left: 200px;
+  padding: 20px;
+  display: block;
+  width:300px;
+  background-color: #01426a;
+  opacity: .5;
+  color: #fff;
+
+}
+
+.event-description{
+  margin-bottom: 50px;
+}
+
+.create-event{
+  margin-left: 225px;
+  padding-left:200px;
+
+}
+@media screen and (max-width: 800px) {
+  .nav li {
+    text-decoration: none;
+    width: auto;
+    height: 50px;
+    font-size: 1em;
+    text-align: center;
+  }
+  .container{
+     margin: 30px 100px 30px 100px;
+   }
+
+  .spotlight-description {
+    display: none;
+  }
+
+  .spotlight-img{
+    zoom: 75%;
+  }
+
+  .events-page-container{
+      margin-left: 20px;
+  }
+
+  .create-event{
+    margin-left: 25px;
+    padding-left:50px;
+  }
+}
